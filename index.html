@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FZ VTC Normandie — Chauffeur privé en Normandie</title>
+<meta name="description" content="Chauffeur privé haut de gamme en Normandie. Transferts aéroports et gares, excursions Mont Saint-Michel, Étretat, Honfleur. Réservation WhatsApp ou en ligne.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <img src="images/logo.png" alt="FZ VTC Normandie" class="nav-logo">
+    </a>
+    <nav class="nav-links">
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#destinations" data-i18n="nav_destinations">Destinations</a>
+      <a href="#pourquoi" data-i18n="nav_pourquoi">Pourquoi nous</a>
+      <a href="#contact" data-i18n="nav_contact">Réserver</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-btn active" data-lang="fr">FR</button>
+        <span class="lang-sep">/</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="#contact" class="nav-cta" data-i18n="nav_cta">Réserver</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="images/hero.jpg" alt="Berline privée FZ VTC Normandie">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow" data-i18n="hero_eyebrow">Chauffeur privé — Normandie</p>
+    <h1 data-i18n-html="hero_title">Votre trajet,<br><span class="gold-text">notre élégance.</span></h1>
+    <p class="hero-sub" data-i18n="hero_sub">Transferts aéroports, gares, événements et excursions vers les plus beaux sites de Normandie. Un chauffeur, une berline, une expérience sur mesure.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/33627124804?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20course%20FZ%20VTC%20Normandie" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="btn-icon"><path fill="currentColor" d="M17.6 6.32A8.86 8.86 0 0 0 11.9 4C7.13 4 3.25 7.88 3.25 12.65c0 1.53.4 3.02 1.16 4.34L3.18 21l4.12-1.2a9.05 9.05 0 0 0 4.6 1.25h.01c4.77 0 8.65-3.88 8.65-8.65 0-2.31-.9-4.48-2.53-6.08zM11.9 19.4a7.4 7.4 0 0 1-3.78-1.04l-.27-.16-2.44.71.72-2.38-.18-.28a7.4 7.4 0 0 1-1.14-3.9c0-4.1 3.34-7.44 7.45-7.44 1.99 0 3.85.78 5.26 2.19a7.36 7.36 0 0 1 2.18 5.26c0 4.1-3.34 7.44-7.44 7.44zm4.08-5.58c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.58.73-.71.89-.13.15-.26.17-.48.06-.22-.11-.94-.35-1.79-1.11-.66-.59-1.11-1.32-1.24-1.54-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.65-.18-.44-.37-.38-.5-.38-.13-.01-.28-.01-.43-.01s-.39.06-.6.28c-.2.22-.79.77-.79 1.87s.81 2.17.92 2.32c.11.15 1.6 2.45 3.89 3.43.54.24.97.38 1.3.48.55.17 1.05.15 1.44.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.09-.2-.15-.42-.26z"/></svg>
+        WhatsApp
+      </a>
+      <a href="#contact" class="btn btn-outline" data-i18n="hero_cta_form">Demande en ligne</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span></span>
+  </div>
+</section>
+
+<!-- STRIP -->
+<section class="strip">
+  <div class="strip-inner">
+    <div class="strip-item"><span class="strip-num">24/7</span><span class="strip-label" data-i18n="strip_1">Disponibilité sur réservation</span></div>
+    <div class="strip-sep"></div>
+    <div class="strip-item"><span class="strip-num">100%</span><span class="strip-label" data-i18n="strip_2">Chauffeur professionnel VTC</span></div>
+    <div class="strip-sep"></div>
+    <div class="strip-item"><span class="strip-num" data-i18n="strip_3_num">Toute</span><span class="strip-label" data-i18n="strip_3">la Normandie couverte</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-head">
+    <p class="eyebrow" data-i18n="services_eyebrow">Nos services</p>
+    <h2 data-i18n="services_title">Un chauffeur pour chaque instant</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.4" d="M3 21l3-9 5-6h2l5 6 3 9M6 12h12M9 21v-4h6v4"/></svg>
+      </div>
+      <h3 data-i18n="service1_title">Transferts aéroport &amp; gare</h3>
+      <p data-i18n="service1_text">Deauville, Caen, Rouen, Le Havre, Paris. Suivi de vol, accueil personnalisé, ponctualité garantie.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.4" d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>
+      </div>
+      <h3 data-i18n="service2_title">Excursions &amp; tourisme</h3>
+      <p data-i18n="service2_text">Mont Saint-Michel, Étretat, plages du Débarquement, Honfleur. Circuits sur mesure, à la journée ou demi-journée.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.4" d="M4 12a8 8 0 1116 0 8 8 0 01-16 0zm8-4v4l3 2"/></svg>
+      </div>
+      <h3 data-i18n="service3_title">Mise à disposition</h3>
+      <p data-i18n="service3_text">Réservez votre chauffeur à l'heure ou à la journée pour vos rendez-vous professionnels et déplacements.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.4" d="M12 21s-7-4.6-9.5-9.1C.8 8.3 2.3 4.9 5.6 4.1 8 3.5 10 4.6 12 7c2-2.4 4-3.5 6.4-2.9 3.3.8 4.8 4.2 3.1 7.8C19 16.4 12 21 12 21z"/></svg>
+      </div>
+      <h3 data-i18n="service4_title">Événements &amp; mariages</h3>
+      <p data-i18n="service4_text">Soirées, cérémonies, sorties en groupe. Un service discret et élégant pour vos moments importants.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DESTINATIONS -->
+<section class="destinations" id="destinations">
+  <div class="section-head">
+    <p class="eyebrow" data-i18n="dest_eyebrow">Destinations</p>
+    <h2 data-i18n="dest_title">La Normandie, vue depuis votre siège</h2>
+  </div>
+  <div class="dest-grid">
+    <a class="dest-card" href="#contact">
+      <img src="https://images.unsplash.com/photo-1751283246779-6295b09c445f?fm=jpg&q=70&w=1400&auto=format&fit=crop" alt="Mont Saint-Michel au coucher du soleil">
+      <div class="dest-overlay"></div>
+      <div class="dest-text">
+        <h3>Mont Saint-Michel</h3>
+        <p data-i18n="dest1_text">L'îlot mythique, à la lumière du soir</p>
+      </div>
+    </a>
+    <a class="dest-card" href="#contact">
+      <img src="https://images.unsplash.com/photo-1748514427313-7438dfb17aad?fm=jpg&q=70&w=1400&auto=format&fit=crop" alt="Falaises d'Étretat">
+      <div class="dest-overlay"></div>
+      <div class="dest-text">
+        <h3>Étretat</h3>
+        <p data-i18n="dest2_text">Les falaises emblématiques de la côte d'Albâtre</p>
+      </div>
+    </a>
+    <a class="dest-card" href="#contact">
+      <img src="https://images.unsplash.com/photo-1758027709220-036dd3e46805?fm=jpg&q=70&w=1400&auto=format&fit=crop" alt="Port de Honfleur">
+      <div class="dest-overlay"></div>
+      <div class="dest-text">
+        <h3>Honfleur</h3>
+        <p data-i18n="dest3_text">Le vieux bassin et ses maisons de caractère</p>
+      </div>
+    </a>
+    <a class="dest-card" href="#contact">
+      <img src="https://images.unsplash.com/photo-1508855011026-8427419cc7d7?fm=jpg&q=70&w=1400&auto=format&fit=crop" alt="Les planches de Deauville">
+      <div class="dest-overlay"></div>
+      <div class="dest-text">
+        <h3>Deauville &amp; Trouville</h3>
+        <p data-i18n="dest4_text">Les planches, la plage et le charme balnéaire de la Côte Fleurie</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- POURQUOI -->
+<section class="pourquoi" id="pourquoi">
+  <div class="pourquoi-inner">
+    <div class="pourquoi-text">
+      <p class="eyebrow" data-i18n="pourquoi_eyebrow">Pourquoi FZ VTC Normandie</p>
+      <h2 data-i18n="pourquoi_title">La rigueur d'un professionnel, le confort d'un ami</h2>
+      <ul class="pourquoi-list">
+        <li><span>01</span><span data-i18n="pourquoi_1">Chauffeur VTC agréé, assurance professionnelle à jour</span></li>
+        <li><span>02</span><span data-i18n="pourquoi_2">Véhicule récent, propre, climatisé</span></li>
+        <li><span>03</span><span data-i18n="pourquoi_3">Tarifs clairs, communiqués avant la course</span></li>
+        <li><span>04</span><span data-i18n="pourquoi_4">Réservation simple par WhatsApp ou formulaire</span></li>
+      </ul>
+    </div>
+    <div class="pourquoi-quote">
+      <p data-i18n="pourquoi_quote">« Je conduis chaque client comme je conduirais un proche : avec ponctualité, discrétion et attention. »</p>
+      <span data-i18n="pourquoi_quote_by">— Fondateur, FZ VTC Normandie</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <p class="eyebrow" data-i18n="contact_eyebrow">Réservation</p>
+      <h2 data-i18n="contact_title">Organisons votre trajet</h2>
+      <p class="contact-sub" data-i18n="contact_sub">Le plus simple : un message direct. Sinon, remplissez le formulaire et je vous réponds rapidement.</p>
+      <div class="contact-buttons">
+        <a href="https://wa.me/33627124804?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20course" class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" class="btn-icon"><path fill="currentColor" d="M17.6 6.32A8.86 8.86 0 0 0 11.9 4C7.13 4 3.25 7.88 3.25 12.65c0 1.53.4 3.02 1.16 4.34L3.18 21l4.12-1.2a9.05 9.05 0 0 0 4.6 1.25h.01c4.77 0 8.65-3.88 8.65-8.65 0-2.31-.9-4.48-2.53-6.08zM11.9 19.4a7.4 7.4 0 0 1-3.78-1.04l-.27-.16-2.44.71.72-2.38-.18-.28a7.4 7.4 0 0 1-1.14-3.9c0-4.1 3.34-7.44 7.45-7.44 1.99 0 3.85.78 5.26 2.19a7.36 7.36 0 0 1 2.18 5.26c0 4.1-3.34 7.44-7.44 7.44zm4.08-5.58c-.22-.11-1.32-.65-1.53-.73-.2-.08-.35-.11-.5.11-.15.22-.58.73-.71.89-.13.15-.26.17-.48.06-.22-.11-.94-.35-1.79-1.11-.66-.59-1.11-1.32-1.24-1.54-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.65-.18-.44-.37-.38-.5-.38-.13-.01-.28-.01-.43-.01s-.39.06-.6.28c-.2.22-.79.77-.79 1.87s.81 2.17.92 2.32c.11.15 1.6 2.45 3.89 3.43.54.24.97.38 1.3.48.55.17 1.05.15 1.44.09.44-.07 1.32-.54 1.51-1.06.19-.52.19-.96.13-1.06-.06-.09-.2-.15-.42-.26z"/></svg>
+          WhatsApp
+        </a>
+        <a href="tel:+33627124804" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" class="btn-icon"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+          <span data-i18n="contact_call">Appeler</span>
+        </a>
+      </div>
+      <div class="contact-info">
+        <p><strong data-i18n="contact_zone_label">Zone de service :</strong> <span data-i18n="contact_zone_value">Normandie (Calvados, Manche, Seine-Maritime, Eure, Orne)</span></p>
+        <p><strong data-i18n="contact_reply_label">Réponse :</strong> <span data-i18n="contact_reply_value">rapide, 7j/7</span></p>
+      </div>
+    </div>
+    <form class="contact-form" id="bookingForm">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name" data-i18n="form_name">Nom</label>
+          <input type="text" id="name" name="name" required data-i18n-placeholder="form_name_ph" placeholder="Votre nom">
+        </div>
+        <div class="form-field">
+          <label for="phone" data-i18n="form_phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" required placeholder="06 00 00 00 00">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="date" data-i18n="form_date">Date</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-field">
+          <label for="time" data-i18n="form_time">Heure</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="from" data-i18n="form_from">Départ</label>
+          <input type="text" id="from" name="from" required data-i18n-placeholder="form_from_ph" placeholder="Adresse ou lieu de départ">
+        </div>
+        <div class="form-field">
+          <label for="to" data-i18n="form_to">Arrivée</label>
+          <input type="text" id="to" name="to" required data-i18n-placeholder="form_to_ph" placeholder="Adresse ou destination">
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="message" data-i18n="form_message">Message (optionnel)</label>
+        <textarea id="message" name="message" rows="3" data-i18n-placeholder="form_message_ph" placeholder="Nombre de passagers, bagages, demande particulière..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-gold btn-full" data-i18n="form_submit">Envoyer la demande</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="FZ VTC Normandie" class="footer-logo">
+    </div>
+    <div class="footer-links">
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#destinations" data-i18n="nav_destinations">Destinations</a>
+      <a href="#pourquoi" data-i18n="nav_pourquoi">Pourquoi nous</a>
+      <a href="#contact" data-i18n="nav_contact">Réserver</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> FZ VTC Normandie — <span data-i18n="footer_copy">Chauffeur privé. Tous droits réservés.</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
